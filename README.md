@@ -6,7 +6,7 @@ This README provides instructions on how to use an Article Retrieval System impl
 * <a href="https://github.com/mikolajhojda/article_retrieval_system/blob/main/report.md">System design report</a>
 
 # Setup
-To run the Article Retrieval System in a Kaggle Notebook you can copy my notebook (<a href="https://www.kaggle.com/code/mikolajhojda/article-retrieval-system-using-mistral7b-and-lan/">link</a>).
+To run the Article Retrieval System in a Kaggle Notebook you can copy my notebook (<a href="https://www.kaggle.com/code/mikolajhojda/article-retrieval-system-using-mistral7b/">link</a>).
 If you want to run it locally, I suggest downloading my notebook, data, and Mistral7B locally.
 
 # Data
@@ -39,4 +39,4 @@ search_articles(query)
 generate_answer(query)
 ```
 # Conclusion
-Thank you for exploring the Article Retrieval System using Mistral7b and LangChain! I hope you find it useful. If you have any questions or suggestions, feel free to reach out.
+Thank you for exploring the Article Retrieval System using Mistral7b, LangChain, and ChromaDB! I hope you find it useful. If you have any questions or suggestions, feel free to reach out.
