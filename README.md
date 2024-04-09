@@ -1,1 +1,1 @@
-# article_retrieval_system
+# Article Retrieval System using Mistral7b and LangChain
