@@ -23,3 +23,5 @@ LangChain has a number of components designed to help build Q&A applications, an
 # Problems that I encountered
 One of the biggest problems I encountered was the lack of local resources to work on LLM. An option I considered was using APIs, which, however, come with a fee. So I decided to use Kaggle, where you can use many of the models available on the platform, including Mistral7B.
 
+# How to develop it?
+If I had more time, I would experiment with other models, but most importantly with text preprocessing. I think better preprocessing could give better results.
