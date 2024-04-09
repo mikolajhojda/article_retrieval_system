@@ -32,5 +32,7 @@ query = "What is Word2Vec?"
 search_articles(query)
 
 #Generate an answer
-search_articles(query)
+generate_answer(query)
 ```
+# Conclusion
+Thank you for exploring the Article Retrieval System using Mistral7b and LangChain! I hope you find it useful. If you have any questions or suggestions, feel free to reach out.
