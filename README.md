@@ -1,5 +1,5 @@
-# Article Retrieval System using Mistral7b and LangChain
-This README provides instructions on how to use an Article Retrieval System implemented with Mistral7b and LangChain. I built this notebook on the Kaggle platform, as I didn't have enough local resources to use some LLMs. The main reason to choose Kaggle was high-performance computing. I mean free access to powerful GPUs which significantly accelerate LLM computations. Training or running complex LLM tasks locally on my machine might be slow or infeasible due to hardware limitations.
+# Article Retrieval System using Mistral7b, LangChain and ChromaDB
+This README provides instructions on how to use an Article Retrieval System implemented with Mistral7b, LangChain and ChromaDB. I built this notebook on the Kaggle platform, as I didn't have enough local resources to use some LLMs. The main reason to choose Kaggle was high-performance computing. I mean free access to powerful GPUs which significantly accelerate LLM computations. Training or running complex LLM tasks locally on my machine might be slow or infeasible due to hardware limitations.
 
 # Setup
 To run the Article Retrieval System in a Kaggle Notebook you can copy my notebook (<a href="https://www.kaggle.com/code/mikolajhojda/article-retrieval-system-using-mistral7b-and-lan/">link</a>).
