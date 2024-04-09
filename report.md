@@ -1,5 +1,15 @@
 # Introduction
-I decided build the system based on three main components: Mistral7B, LangChain and ChromaDB.
+I decided build the article retrieval system based on three main components: Mistral7B, LangChain and ChromaDB.
+
+# How does it work?
+The Article Retrieval System retrieves articles and generate answers to user queries. Below is a detailed description of how the system works:
+
+1. Data Loading: The system begins by loading article data from our dataset.
+2. Chunking: It's a process of extracting meaningful phrases, or "chunks," from a sentence based on its grammatical structure and parts of speech. It involves identifying and grouping together contiguous words or tokens that form a syntactic unit, typically consisting of a noun phrase, verb phrase, or prepositional phrase. I used token-based approach, as I would like to focus on tokens, not on characters.
+3. Embedding Generation: After splitting the text, each chunk is converted into numerical embeddings using a pre-trained embedding model. These embeddings capture the semantic meaning of the text and facilitate similarity comparisons between documents during the retrieval process.
+4. Chroma Database Creation: The embeddings generated from the text chunks are used to create a Chroma database, a vector store optimized for efficient similarity search. This database organizes the embeddings in a high-dimensional space, enabling fast retrieval of documents similar to a given query.
+5. Document Retrieval: Based on the similarity scores computed during the query processing step, the system retrieves 3 articles that best match the user's query. These documents serve as the primary sources of information for generating answers to the user's questions.
+6. Question and Answering: The system generates responses to user queries both with and without retrieved documents. This allows us to compare what changes in response access to articles.
 
 # Why I chose Mistral7b?
 The most important reason for choosing Mistral7b was that it is open-source. This means that I could use it without any obstacles. Another reason was its strong performance. It outperforms similarly sized models in many benchmarks. I also considered choosing other models such as Gemma, which is also open-source, and models such as GPT-3.5 Turbo, for which I needed a paid API, however. There were also many resources on which I could learn how to apply Mistral in practice. This was a significant plus compared to Gemma. I also didn't want to pay for an API in the case of the OpenAI product.
